@@ -1,0 +1,10 @@
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\bin\Debug\XMLDemo.exe.config
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\bin\Debug\XMLDemo.exe
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\bin\Debug\XMLDemo.pdb
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.Form1.resources
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.Properties.Resources.resources
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.exe
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.pdb
