@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace XMLDemo
 {
-    public class Test
+    class Test
     {
         public int Age { get; set; }
-
-        public double Salary { get; set; }
-
         public DateTime JoinDate { get; set; }
+        public double Salary { get; set; }
     }
 }

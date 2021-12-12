@@ -1,43 +1,24 @@
 <?xml version="1.0"?>
 <ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Employee>
-    <Name>123</Name>
-    <Address>123</Address>
-    <Designation>123</Designation>
-    <Age>0</Age>
-    <Salary>0</Salary>
-    <JoinDate>0001-01-01T00:00:00</JoinDate>
+    <Name>Shyam</Name>
+    <Address>Naxal</Address>
+    <Designation>CTO</Designation>
+    <Age>30</Age>
+    <Salary>500000</Salary>
+  </Employee>
+<Employee>
+  <Name>Abhishek</Name>
+    <Address>Imadol</Address>
+    <Designation>Team Lead</Designation>
+    <Age>25</Age>
+    <Salary>50000</Salary>
   </Employee>
   <Employee>
-    <Name>123</Name>
-    <Address>123</Address>
-    <Designation>123</Designation>
-    <Age>0</Age>
-    <Salary>0</Salary>
-    <JoinDate>0001-01-01T00:00:00</JoinDate>
-  </Employee>
-  <Employee>
-    <Name>asd</Name>
-    <Address>adsadad</Address>
-    <Designation>asdasdsa</Designation>
-    <Age>0</Age>
-    <Salary>0</Salary>
-    <JoinDate>0001-01-01T00:00:00</JoinDate>
-  </Employee>
-  <Employee>
-    <Name>asd</Name>
-    <Address>adsadad</Address>
-    <Designation>asdasdsa</Designation>
-    <Age>0</Age>
-    <Salary>0</Salary>
-    <JoinDate>0001-01-01T00:00:00</JoinDate>
-  </Employee>
-  <Employee>
-    <Name>asd</Name>
-    <Address>adsadad</Address>
-    <Designation>asdasdsa</Designation>
-    <Age>0</Age>
-    <Salary>0</Salary>
-    <JoinDate>0001-01-01T00:00:00</JoinDate>
+    <Name>Abhishek</Name>
+    <Address>Imadol</Address>
+    <Designation>Team Lead</Designation>
+    <Age>25</Age>
+    <Salary>50000</Salary>
   </Employee>
 </ArrayOfEmployee>

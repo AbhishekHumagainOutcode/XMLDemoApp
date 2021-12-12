@@ -8,3 +8,5 @@ C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.csproj.GenerateReso
 C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.csproj.CoreCompileInputs.cache
 C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.exe
 C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.pdb
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.Form2.resources
+C:\Users\acer\source\repos\XMLDemo\XMLDemo\obj\Debug\XMLDemo.Form3.resources

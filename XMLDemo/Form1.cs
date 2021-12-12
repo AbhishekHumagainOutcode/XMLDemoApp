@@ -32,8 +32,12 @@ namespace XMLDemo
             employee.Name = textBox1.Text;
             employee.Address = textBox2.Text;
             employee.Designation = textBox3.Text;
+            employee.Age = int.Parse(textBox4.Text);
+            employee.Salary = double.Parse(textBox5.Text);
 
             employees.Add(employee);
+
+            dataGridView1.DataSource = employees;
 
 
             xmlSerializer.Serialize(fileStream, employees);
@@ -54,6 +58,56 @@ namespace XMLDemo
 
             dataGridView1.DataSource = employees;
             fileStream.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //Build the CSV file data as a Comma separated string.
+            string csv = string.Empty;
+
+            //Add the Header row for CSV file.
+            foreach (DataGridViewColumn column in dataGridView1.Columns)
+            {
+                csv += column.HeaderText + ',';
+            }
+
+            //Add new line.
+            csv += "\r\n";
+
+            //Adding the Rows
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                foreach (DataGridViewCell cell in row.Cells)
+                {
+                    //Add the Data rows.
+                    csv += cell.Value.ToString().Replace(",", ";") + ',';
+                }
+
+                //Add new line.
+                csv += "\r\n";
+            }
+
+            //Exporting to CSV.
+            string folderPath = "C:/Users/acer/source/repos/XMLDemo/asd.csv";
+            File.WriteAllText(folderPath + "DataGridViewExport.csv", csv);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+
+            FileStream fileStream = new FileStream("C:/Users/acer/source/repos/XMLDemo/employee.xml", FileMode.Open, FileAccess.Read);
+            employees = (List<Employee>)xmlSerializer.Deserialize(fileStream);
+            fileStream.Close();
+
+            form3.LoadData(employees);
+            form3.Show();
         }
     }
 }
