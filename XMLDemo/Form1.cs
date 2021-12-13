@@ -94,7 +94,7 @@ namespace XMLDemo
             }
 
             //Exporting to CSV.
-            string folderPath = "C:/Users/acer/source/repos/XMLDemo/asd.csv";
+            string folderPath = "C:/Users/acer/source/repos/XMLDemo/";
             File.WriteAllText(folderPath + "DataGridViewExport.csv", csv);
         }
 

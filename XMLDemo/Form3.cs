@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace XMLDemo
 {
@@ -23,12 +24,12 @@ namespace XMLDemo
             if (employee != null)
             {
                 BarChart.DataSource = employee;
-                BarChart.Series["Designation"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+                BarChart.Series["Salary"].ChartType = SeriesChartType.Pie;
                 //set the member of the chart data source used to data bind to the X-values of the series  
-                BarChart.Series["Designation"].XValueMember = "Name";
+                BarChart.Series["Salary"].XValueMember = "Name";
                 //set the member columns of the chart data source used to data bind to the X-values of the series  
-                BarChart.Series["Designation"].YValueMembers = "Salary";
-                BarChart.Titles.Add("Designation Chart");
+                BarChart.Series["Salary"].YValueMembers = "Salary";
+                BarChart.Titles.Add("Salary Chart");
             }
             else
             {

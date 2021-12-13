@@ -44,10 +44,10 @@ namespace XMLDemo
             this.BarChart.Legends.Add(legend1);
             this.BarChart.Location = new System.Drawing.Point(97, 126);
             this.BarChart.Name = "BarChart";
-            this.BarChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
+            this.BarChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
-            series1.Name = "Designation";
+            series1.Name = "Salary";
             this.BarChart.Series.Add(series1);
             this.BarChart.Size = new System.Drawing.Size(502, 300);
             this.BarChart.TabIndex = 0;
